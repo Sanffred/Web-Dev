@@ -1,2 +1,2 @@
-![image](https://github.com/Sanffred/Web-Dev/assets/74673985/92d6dab1-6e5c-4af4-86d0-5aa7663b62e8)
-![image](https://github.com/Sanffred/Web-Dev/assets/74673985/b333af87-06b6-4d23-8189-5cc06e4c77f3)
+![image](https://github.com/Sanffred/Web-Dev/assets/74673985/ff5240f3-14c7-4586-8752-a87add785a04)
+![image](https://github.com/Sanffred/Web-Dev/assets/74673985/28b8c14e-5e77-4439-af96-faaa373e4c1c)
