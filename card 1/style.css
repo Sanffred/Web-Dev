@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #eaeff1;
+    font-family: 'Raleway', sans-serif;
+}
+
+img{
+    width: 100%;
+    height: 214px;
+    object-fit: cover;
+
+    border-radius: 3% ;
+}
+
+.container {
+    max-width: 300px;
+  
+    /* Center the container in middle on horizontal axis */
+    margin: 0 auto;
+  
+    /* Add empty space above the container (20% of the view height) */
+    margin-top: 20vh;
+}
+
+.card{
+    background-color: #ffffff;
+    padding: 8px;
+    border-radius: 3%;
+}
+
+.tag{
+    font-size: 12px;
+    padding: 4px 8px;
+    margin: 10px 5px; 
+    color: #788697;
+    border:1px solid #cbcdce;
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+.info-heading{
+    font-size: 24px;
+    font-weight: 600;
+  
+    margin-top: 16px;
+  }
+
+.content{
+    font-size: 14px;
+    color: #7f8c9b;
+    line-height: 150%;
+    margin-top: 16px;
+}
+button{
+    color: #0077ff;
+    border: transparent;
+    border-radius: 50px;
+    padding: 12px 24px;
+    background-color: #e0efff;
+    margin: 0px auto;
+    margin-top: 9px;
+    display: block ;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card-info {
+    /* Add space around the details */
+    padding: 16px 8px 8px 8px;
+  }
+
+
+button:hover {
+  background-color: #0077ff;
+  color: #e0efff;
+}
