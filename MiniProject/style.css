@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* nav bar  */
+
+
+.branding{
+  border: 2px solid transparent ;
+  border-radius: 10px;
+
+  padding: 10px 15px;
+}
+.branding:hover{
+  color: #abac96;
+}
+i{
+  font-size: 30px;
+}
+
+.logo-text{
+  display: inline;
+}
+
+.protest-riot-regular {
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+
+
+
+
+.nav-links{
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+
+  position: relative;
+  right: 100px;
+}
+
+.navbar-links{
+  font-weight: 600;
+  font-size: 20px;
+
+  padding: 10px 15px;
+  border: 2px solid transparent ;
+  border-radius: 5px;
+
+  margin: 5px;
+
+  transition: all ease-out 250ms;
+}
+
+.navbar-links:hover{
+  background-color: #b1a295;
+  color:white ;
+}
+
+
+/* .active:active{
+  background-color: #b1a295;
+} */
+
+.login{
+  border: none;
+  border: 2px solid rgb(169, 169, 169) ;
+
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: transparent;
+
+  background-color: transparent;
+  transition: all ease-in 250ms;
+}
+
+.login:hover{
+  color: white;
+  background-color: #b1a295;
+}
+
+.login:active{
+  transform: scale(0.9);
+}
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* content  */
+main {
+  
+  background-image: url(images/BG7.jpg);
+  /* background-size: contain; */
+  
+}
+
+.hero-section {
+   padding-top: 12px; 
+
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.card {
+  background-color: #ffffff;
+
+  border: none;
+
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+
+  box-shadow: 2px 2px 15px;
+}
+
+.card-img-top {
+  border-radius: 10px;
+}
+
+.btn-link{
+  text-decoration: none;
+}
+
+.butn{
+  position: relative;
+  display: inline-block;
+  margin: 15px;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #5C4E33;
+  background: transparent;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+  border: 3px solid #5C4E33;
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 0 #5C4E33;
+}
+
+.butn:hover {
+  color: white;
+  border: 3px solid #5C4E33;
+  
+  box-shadow: inset 0 -100px 0 0 #5C4E33;
+}
+
+.butn:active {
+  /* color: white; */
+ 
+  transform: scale(0.9);
+   border: 3px solid #725AC1;
+}
+
+/* footer  */
+
+.container1{
+    background-color: #111111;
+}
+.socials{
+    
+    display: flex;
+    justify-content: center;
+
+    padding: 20px;
+}
+.socials a{
+    color: black;
+
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    background-color: white;
+    border-radius: 50px;
+
+    padding-top: 2px;
+    margin-right: 20px;   /* this to bring spaces between the icons */
+}
+
+.FB, .insta,.x,.google,.YT{
+    text-align: center;
+}
+
+.nav-link{
+    color: #989898;
+}
+
+.copyright{
+    color: white;
+    background-color: #000000;
+    padding: 10px;
+    text-align: center;
+}
+
+.FB:hover{
+    color:white ;
+    background-color: #111111;
+}
+
+.insta:hover{
+    color:white ;
+    background-color: #111111;
+}
+
+.x:hover{
+    color:white ;
+    background-color: #111111;
+}
+
+.YT:hover{
+    color:white ;
+    background-color: #111111;
+}
+
+.google:hover{
+    color:white ;
+    background-color: #111111;
+}
